@@ -1,0 +1,18 @@
+START
+    DECLARE integers num1, num2, num3
+    DECLARE integer pointers ptr1, ptr2, ptr3
+
+    PROMPT user for num1, num2, num3
+    READ num1, num2, num3
+
+    ptr1 = new integer, set to num1
+    ptr2 = new integer, set to num2
+    ptr3 = new integer, set to num3
+
+    DISPLAY num1, num2, num3 (variable values)
+    DISPLAY *ptr1, *ptr2, *ptr3 (pointer contents)
+    DISPLAY ptr1, ptr2, ptr3 (pointer addresses) [optional but common]
+
+    DELETE ptr1, ptr2, ptr3
+    SET ptr1, ptr2, ptr3 to nullptr
+END
